@@ -8,5 +8,6 @@
   </div>
 </template>
 <script lang="ts" setup name="App">
-  import Father from '@/components/Father.vue'
+  import Father from './components/Father.vue'
+  import Son from './components/Son.vue'
 </script>

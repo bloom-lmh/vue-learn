@@ -3,10 +3,12 @@
     <!-- 导航区 -->
     <!-- 展示区 -->
     <div class="main-content">
-      <Father></Father>
+      <Count />
+      <LoveTalk />
     </div>
   </div>
 </template>
 <script lang="ts" setup name="App">
-  import Father from '@/components/Father.vue'
+  import Count from './components/Count.vue'
+  import LoveTalk from './components/LoveTalk.vue'
 </script>
